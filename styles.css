@@ -236,21 +236,22 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 50%;
+    height: 100%;
     transition: all 0.1s ease-in-out;
     opacity: 0;
     padding: 0px 10px;
   
     h2 {
         color: #ffffff;
-        font-size: 1rem; 
+      font-size:1.8rem; 
       transition: 0.4s ease-in;
       font-weight: 600;
+      padding: 0 10px;
         
     }
   
     p {
-        padding: 0px 20px;
+        padding: 0px 30px;
         font-size: 1rem;
         font-weight: 100;
         margin-top: 10px;
@@ -264,4 +265,41 @@ img {
     }
   }
   
+}
+
+@media screen and (min-width: 1440px) {
+  .text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    transition: all 0.1s ease-in-out;
+    opacity: 0;
+    padding: 0px 10px;
+  
+    h2 {
+        color: #ffffff;
+      font-size:1.5rem; 
+      transition: 0.4s ease-in;
+      font-weight: 600;
+      padding: 0 10px;
+        
+    }
+  
+    p {
+        padding: 0px 30px;
+        font-size: 1rem;
+        font-weight: 100;
+        margin-top: 10px;
+        transition: 0.4s ease-in;
+        line-height:20px;
+  
+    }
+  
+    span {
+        color: white;
+    }
+  }
 }
